@@ -1,0 +1,44 @@
+#root {
+-fx-background-color: #383838;
+    -fx-padding: 9 0 0 0;
+}
+
+#title {
+    -fx-font: bold 13px "Tahoma";
+    -fx-text-alignment: center;
+    -fx-fill: #d6d6d6;
+
+}
+
+#timelabel {
+    -fx-font: bold 13px "Tahoma";
+    -fx-text-alignment: center;
+    -fx-text-fill: #d6d6d6;
+    -fx-padding: 8 0 8 10;
+}
+
+.button {
+    -fx-text-fill: rgb(49, 89, 23);
+    -fx-border-color: #d6d6d6;
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-border-radius: 0;
+    -fx-padding: 6 6 6 6;
+}
+
+.slider .thumb{
+    -fx-border-color: #d6d6d6;
+    -fx-background-color: #383838;
+    -fx-border-radius: 1.0em;
+}
+
+.slider .track{
+    -fx-background-radius: 0.0em;
+    -fx-background-color: #33cdff;
+    -fx-background-insets: 0;
+    -fx-border-color: #d6d6d6;
+}
+
+#volumeslider {
+-fx-padding: 9 0 9 10;
+}
